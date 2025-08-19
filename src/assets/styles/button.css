@@ -1,0 +1,34 @@
+@reference '../../index.css';
+
+.btn {
+  background-color: #3f8cff;
+  color: white;
+  border-radius: 14px;
+  box-shadow: 0px 6px 12px 0px rgba(63, 140, 255, 0.26);
+}
+
+.btn.medium {
+  padding: 13px 45px;
+}
+
+.btn.small {
+  padding: 13px 21px;
+}
+.btn:hover {
+  opacity: 0.7;
+}
+
+.btn.disabled {
+  color: #fff; /* text-white */
+  background-color: oklch(0.69 0.15 243.16); /* bg-blue-400 */
+  cursor: not-allowed; /* cursor-not-allowed */
+  font-weight: 500; /* font-medium */
+  border-radius: 0.5rem; /* rounded-lg */
+  font-size: 0.875rem; /* text-sm */
+  line-height: 1.25rem; /* text-sm (line height in v4) */
+  padding-left: 1.25rem; /* px-5 */
+  padding-right: 1.25rem; /* px-5 */
+  padding-top: 0.625rem; /* py-2.5 */
+  padding-bottom: 0.625rem; /* py-2.5 */
+  text-align: center; /* text-center */
+}

@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@import "tailwindcss";
+
+.qolgan {
+  width: calc(100% - 200px);
+}
+.event-card {
+  display: flex;
+  align-items: stretch;
+}
+
+.event-card::before {
+  content: "";
+  display: block;
+  width: 10px;
+  background-color: #3f8cff;
+  border-radius: 8px;
+}
+
+.event-card-down::before {
+  content: "";
+  display: block;
+  width: 10px;
+  background-color: #de92eb;
+  border-radius: 8px;
+}
+.profile-control {
+  font-size: 16px;
+}
+
+.about-profile {
+  font-size: 14px;
+}
